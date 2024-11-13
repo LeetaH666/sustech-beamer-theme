@@ -1,0 +1,68 @@
+\documentclass{beamer}
+
+\usetheme{sustechlogo}
+
+\usepackage{amsthm}
+\usepackage{calligra}
+
+\newtheorem{thm}{THEOREM}
+
+\title[Short Title]{Title}
+\author{Li Huang}
+\institute{SUSTech}
+
+\begin{document}
+
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \begin{frame}
+        \tableofcontents
+    \end{frame}
+
+    \section{Section1}
+
+    \begin{frame}{Frame1}{Subtitle}
+        \begin{itemize}
+            \item item1
+            \item item2
+        \end{itemize}
+    \end{frame}
+
+    \subsection{subsection1}
+
+    \begin{frame}
+        \begin{enumerate}
+            \item item1
+            \item item2
+        \end{enumerate}
+    \end{frame}
+
+    \section{Section2}
+
+    \begin{frame}
+        \begin{thm}
+            This is a theorem.
+        \end{thm}
+    \end{frame}
+    
+    \section{Section3}
+    
+    \begin{frame}
+        \begin{proof}
+            \begin{equation}
+                a + b = c
+            \end{equation}
+            The proof is trivial.
+        \end{proof}
+    \end{frame}
+    
+    \section{Section4}
+    
+    \begin{frame}
+        \centering
+        \Huge\calligra Thanks!
+    \end{frame}
+    
+\end{document}
