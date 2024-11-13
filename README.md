@@ -6,14 +6,14 @@ This is a LaTeX beamer theme for Southern University of Science and Technology (
 
     <div align='center'>
 
-    ![](image/2024-11-13-16-50-14.png)
+    ![](image/example_sustechlogo.png)
     </div>
 
 - SUSTech buildings
 
     <div align='center'>
 
-    ![](image/2024-11-13-16-51-29.png)
+    ![](image/example_sustechbuildings.png)
     </div>
 
 Just simply use `\usetheme{sustechlogo}` or `\usetheme{sustechbuildings}` to choose the image you like.
