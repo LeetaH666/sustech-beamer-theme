@@ -1,0 +1,27 @@
+\useinnertheme[shadow=false]{sustech}
+\useoutertheme[subsection=false]{sustech}
+\usecolortheme{sustech}
+\usefonttheme[stillsansserifsmall]{sustech}
+
+\usepackage{pgf}
+
+% logo
+\@ifundefined{beamer@themelocation}{%
+    \pgfdeclareimage[height=3.5cm]{sl}{sustechlogo.pdf}
+}{%
+    \pgfdeclareimage[height=3.5cm]{sl}{\beamer@themelocation/sustechlogo.pdf}
+}
+% \logo{\pgfuseimage{sl}\hspace{-0.7cm}\vspace{-1.5cm}}
+\logo{\pgfuseimage{sl}\hspace{8.3cm}\vspace{-1.7cm}}
+% \logo{\pgfputat{\pgfxy(-8.3, 6)}{\pgfbox[right, base]{\pgfuseimage{sl}}}}
+    
+\AtBeginSection[]{
+	\begin{frame}
+		\tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+	\end{frame}
+}
+\AtBeginSubsection[]{
+	\begin{frame}
+		\tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+	\end{frame}
+}
